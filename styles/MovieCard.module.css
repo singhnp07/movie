@@ -1,0 +1,31 @@
+.MovieCard_layout {
+  color: white !important;
+  background-color: #092c39;
+  padding: 8px;
+  margin: 8px;
+}
+.MovieCard_layout:hover {
+  color: white !important;
+  background-color: #092c3965;
+  display: block;
+}
+.MovieCard_image {
+  position: relative;
+
+  height: 504px;
+}
+.MovieCard_image img {
+  border-radius: 10px;
+}
+.MovieCard_year {
+  padding: 4px;
+}
+.MovieCard_title {
+  padding: 4px;
+}
+@media only screen and (max-width: 768px) {
+  .MovieCard_image {
+    position: relative;
+    height: 300px;
+  }
+}

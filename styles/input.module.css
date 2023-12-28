@@ -1,0 +1,17 @@
+.inputs {
+  color: rgb(247, 241, 241) !important;
+  background-color: #224957;
+  border: none !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  padding: 10px !important;
+}
+
+.inputs:hover {
+  outline: none !important;
+  border: none !important;
+}
+.inputlebal {
+  margin-bottom: 10px;
+  color: #2bd17e;
+}
